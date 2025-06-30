@@ -1,11 +1,11 @@
-# @maotongjian\*/function-utils
+# @maotongjian/function-utils
 
 A tiny utility library for `debounce` and `throttle` in JavaScript.
 
 ## 🚀 Installation
 
 ```bash
-npm install @maotongjian*/function-utils
+npm install @maotongjian/function-utils
 ```
 
 ## 📦 Usage
@@ -16,7 +16,7 @@ import {
   debounceImmediate,
   throttleFlag,
   throttleTime,
-} from '@maotongjian*/function-utils';
+} from '@maotongjian/function-utils';
 
 // debounce example
 const logDebounce = debounce(() => console.log('debounce'), 500);
