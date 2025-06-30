@@ -1,6 +1,6 @@
 {
-  "name": "@maotongjian/function-utils",
-  "version": "1.0.0",
+  "name": "@maotongjian*/function-utils",
+  "version": "1.0.1",
   "description": "A tiny utility library for debounce and throttle functions.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

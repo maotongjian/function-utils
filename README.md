@@ -1,14 +1,14 @@
-# @maotongjian/function-utils
+# @maotongjian\*/function-utils
 
 A tiny utility library for `debounce` and `throttle` in JavaScript.
 
-## Installation
+## 🚀 Installation
 
 ```bash
-npm install @maotongjian/function-utils
+npm install @maotongjian*/function-utils
 ```
 
-## Usage
+## 📦 Usage
 
 ```js
 import {
@@ -16,7 +16,7 @@ import {
   debounceImmediate,
   throttleFlag,
   throttleTime,
-} from '@maotongjian/function-utils';
+} from '@maotongjian*/function-utils';
 
 // debounce example
 const logDebounce = debounce(() => console.log('debounce'), 500);
@@ -35,13 +35,20 @@ const logThrottleFlag = throttleFlag(() => console.log('throttleFlag'), 500);
 const lotThrottleTime = throttleTime(() => console.log('throttleTime'), 500);
 ```
 
-## Functions
+## 🧰 Functions Reference
 
 - `debounce(fn, delay)`
-- `debounceImmediate(fn, delay, immediate)`
-- `throttleFlag(fn, delay)`
-- `throttleTime(fn, delay)`
+  Delays invoking fn until after delay milliseconds have passed since the last call.
 
-## License
+- `debounceImmediate(fn, delay, immediate)`
+  If immediate is true, fn is invoked immediately on the first call, then debounced.
+
+- `throttleFlag(fn, delay)`
+  Throttles fn using a simple flag lock. Useful for basic frequency control.
+
+- `throttleTime(fn, delay)`
+  Throttles fn based on timestamp difference. More accurate than flag throttling.
+
+## 📄 License
 
 MIT
