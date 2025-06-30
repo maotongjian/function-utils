@@ -1,0 +1,37 @@
+{
+  "name": "@maotongjian/function-utils",
+  "version": "1.0.0",
+  "description": "A tiny utility library for debounce and throttle functions.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.js",
+    "dev": "tsup src/index.js --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "utils",
+    "javascript"
+  ],
+  "author": "maotongjian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maotongjian/function-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maotongjian/function-utils/issues"
+  },
+  "homepage": "https://github.com/maotongjian/function-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0"
+  }
+}
